@@ -1,5 +1,5 @@
 function[w,y,e,J,w1]=nlms(x,dn,mubar,M,eps)
-%function[w,a,y,e,J,w1,a1]=nlnlms(x,dn,mubar,M,eps)
+%function[w,y,e,J,w1]=nlnlms(x,dn,mubar,M,eps)
 % Normalized Least Mean Squares filter
 % x = input data
 % dn = desired signal (must be same of same size as x)
